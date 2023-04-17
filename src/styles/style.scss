@@ -83,21 +83,25 @@
     }
 }
 
+.heading {
+    padding: 60px 0;
+
+    text-align: center;
+    color: #000;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
 .story {
     height: 632px;
     
 
     &__title {
-        padding: 60px 0;
-
-        text-align: center;
-        color: #000;
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 53px;
-        text-transform: uppercase;
+        
     }
 
     &__content {
@@ -120,5 +124,12 @@
             line-height: 30px;
         }
     }
+}
+.blog {
+    height: 711px;
+    background-color: #EFEFEF;
 
+    &__title {
+        
+    }
 }
