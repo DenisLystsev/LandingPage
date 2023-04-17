@@ -10,23 +10,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <title>LandingPage</title>
 </head>
 
 <body class="body">
     <div class="container">
         <header class="header">
-            <a href="\" class="logo">Coffee House</a>
+            <a href="index.html" class="logo">Coffee House</a>
             <ul class="menu">
-                <li class="menu__item"><a class="menu__item__anchor" href="#">Home</a></li>
-                <li class="menu__item"><a class="menu__item__anchor" href="#">Story</a></li>
+                <li class="menu__item"><a class="menu__item__anchor" href="#home">Home</a></li>
+                <li class="menu__item"><a class="menu__item__anchor" href="#story">Story</a></li>
                 <li class="menu__item"><a class="menu__item__anchor" href="#">Blog</a></li>
                 <li class="menu__item"><a class="menu__item__anchor" href="#">Subscribe</a></li>
             </ul>
         </header>
-        <div class="home">
+        <div class="home" id="home">
             <div class="home__text">TAKE YOUR TIME</div>
             <div class="home__line"></div>
+        </div>
+        <div class="story" id="story">
+            <h2 class="story__title">Story</h2>
+            <div class="story__content">
+                <img class="story__content__image" src="img/story_image.png" alt="image">
+                <p class="story__content__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, 
+                    vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
+                    himenaeos. Praesent mattis ultrices est, congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan. Maecenas semper est ut nunc feugiat, vel 
+                    ultrices ligula commodo. Donec eget pulvinar nunc, eget pharetra risus.
+                </p>
+            </div>
         </div>
     </div>
 </body>

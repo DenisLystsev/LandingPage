@@ -68,10 +68,10 @@
 
     &__text {
         color: #fff;
-        font-family: 'Oswald'; 
-        font-style: normal; 
+        font-family: 'Oswald';
+        font-style: normal;
         font-weight: 700;
-        font-size: 60px; 
+        font-size: 60px;
         line-height: 89px;
         margin-bottom: 7px;
     }
@@ -81,4 +81,44 @@
         height: 10px;
         background-color: #817070;
     }
+}
+
+.story {
+    height: 632px;
+    
+
+    &__title {
+        padding: 60px 0;
+
+        text-align: center;
+        color: #000;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 53px;
+        text-transform: uppercase;
+    }
+
+    &__content {
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+
+        &__image {
+            margin-right: 40px;
+        }
+
+        &__text {
+            max-width: 597px;
+
+            color: #000;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
 }
