@@ -86,10 +86,10 @@ function styles() {
 function scripts() {
     return gulp.src(paths.scripts.src)
         .pipe(sourcemaps.init())
-        .pipe(ts({
-            noImplicitAny: true,
-            outFile: 'main.min.js'
-        }))
+        // .pipe(ts({
+        //     noImplicitAny: true,
+        //     outFile: 'main.min.js'
+        // }))
         .pipe(babel({
             presets: ['@babel/env']
         }))
