@@ -98,11 +98,11 @@
 
 .story {
     height: 632px;
-    
 
-    &__title {
-        
-    }
+
+    // &__title {
+
+    // }
 
     &__content {
         margin-left: 80px;
@@ -125,11 +125,47 @@
         }
     }
 }
+
 .blog {
     height: 711px;
     background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 1235px;
+    }
+}
+
+.item-content {
+    width: 365px;
+    height: 474px;
+    background-color: #fff;
+    padding: 20px 20px 0 20px;
 
     &__title {
-        
+        color: #000;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+
+    &__image {
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        color: #000;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
     }
 }
