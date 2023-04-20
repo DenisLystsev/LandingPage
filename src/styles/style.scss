@@ -41,6 +41,10 @@
             padding: 0;
         }
 
+        &:hover {
+            text-decoration: underline;
+        }
+
         &__anchor {
             color: #000;
 
@@ -98,11 +102,6 @@
 
 .story {
     height: 632px;
-
-
-    // &__title {
-
-    // }
 
     &__content {
         margin-left: 80px;
