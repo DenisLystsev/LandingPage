@@ -134,15 +134,14 @@
     flex-direction: column;
 
     &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        width: 1235px;
+        display: grid;
+        grid-template-rows: 474px;
+        grid-template-columns: repeat(3, 365px);
+        grid-column-gap: 70px;
     }
 }
 
 .item-content {
-    width: 365px;
-    height: 474px;
     background-color: #fff;
     padding: 20px 20px 0 20px;
 
