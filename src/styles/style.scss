@@ -253,7 +253,7 @@
 @media (max-width: 390px) {
 
     .header {
-        padding: 0 35px;
+        padding: 0 28px;
         height: 130px;
     }
 
@@ -281,15 +281,54 @@
         }
     }
 
+    .heading {
+        padding: 20px 0;
+    }
+
+    .story {
+        height: auto;
+    }
+
+    .blog {
+        height: auto;
+        padding-bottom: 40px;
+
+        &__wrapper {
+            display: grid;
+            grid-template-rows: repeat(3, auto);
+            grid-template-columns: 90%;
+            grid-row-gap: 40px;
+            justify-content: center;
+        }
+    }
+
+    .item-content {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+
+        &__image {
+            margin-bottom: 24px;
+            width: 100%;
+            height: min-content;
+        }
+
+        &__text {
+            display: inherit;
+            text-align: justify;
+        }
+    }
+
     .subscribe {
+        height: auto;
+        padding-bottom: 40px;
+
         &__input {
             width: 240px;
             height: 45px;
             font-size: 17px;
         }
-    }
 
-    .subscribe {
         &__button {
             width: 109px;
             height: 45px;
