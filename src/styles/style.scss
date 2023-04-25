@@ -250,7 +250,37 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
+
+    .header {
+        padding: 0 35px;
+        height: 130px;
+    }
+
+    .logo {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .menu {
+        flex-direction: column;
+
+        &__item {
+            padding-right: 0;
+
+            &:last-child {
+                padding: 0;
+            }
+
+            &__anchor {
+                font-weight: 300;
+                font-size: 22px;
+                line-height: 26px;
+            }
+        }
+    }
+
     .subscribe {
         &__input {
             width: 240px;
@@ -265,5 +295,10 @@
             height: 45px;
             font-size: 17px;
         }
+    }
+
+    .footer {
+        align-items: center;
+        margin-bottom: 0;
     }
 }
