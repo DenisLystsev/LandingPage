@@ -253,7 +253,7 @@
 @media (max-width: 390px) {
 
     .header {
-        padding: 0 28px;
+        padding: 0 30px;
         height: 130px;
     }
 
@@ -285,8 +285,37 @@
         padding: 20px 0;
     }
 
+    .home {
+        &__text {
+            width: 60%;
+            text-align: center;
+        }
+    }
+
     .story {
         height: auto;
+
+        &__content {
+            margin-left: 0;
+            display: flex;
+            flex-direction: column;
+
+            &__image {
+                margin-right: 0;
+                width: 90%;
+                height: auto;
+            }
+
+            &__text {
+                max-width: 90%;
+                display: inherit;
+                text-align: justify;
+
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
     }
 
     .blog {
